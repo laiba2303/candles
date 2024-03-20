@@ -20,6 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <head>
 <?php astra_head_top(); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="google-site-verification" content="wSkp-_wjIxGjr4wnJm88g8guEklFigwSHePBLTPgMQk" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php 
 if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
@@ -30,6 +31,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 ?>
 <?php wp_head(); ?>
 <?php astra_head_bottom(); ?>
+	<meta name="google-site-verification" content="wSkp-_wjIxGjr4wnJm88g8guEklFigwSHePBLTPgMQk" />
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
